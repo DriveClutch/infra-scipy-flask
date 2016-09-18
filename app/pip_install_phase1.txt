@@ -1,11 +1,11 @@
-setuptools
+setuptools==27.2.0
 Flask==0.10.1
 itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
 Werkzeug==0.11.5
-wtforms
-sqlalchemy
-psycopg2
-pydot3
+wtforms==2.1
+sqlalchemy==1.0.15
+psycopg2==2.6.2
+pydot3==1.0.8
 numpy==1.11.1

@@ -4,7 +4,6 @@ MAINTAINER Sang Venkatraman <sang@driveclutch.com>
 
 RUN apk update && apk add build-base postgresql-dev libffi-dev #needed for sqlalchemy to be installed correctly
 RUN ln -s /usr/include/locale.h /usr/include/xlocale.h #needed for numpy to be installed correctly
-RUN pip3 install --upgrade setuptools
 RUN apk add gfortran \
             libgfortran
 
